@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.pnuema.android.foursite.mainscreen.ui.MainActivity">
+
+
+    <item
+        android:id="@+id/menu_item_location_search"
+        android:icon="@color/colorPrimary"
+        android:title="@string/search_locations"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/menu_item_location_search2"
+        android:icon="@drawable/testing"
+        android:title="@string/search_locations"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/menu_item_location_search3"
+        android:icon="@drawable/blood"
+        android:title="@string/search_locations"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+</menu>
